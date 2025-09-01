@@ -41,12 +41,13 @@ It provides:
 
 Tinyevil_url/
 │
-├── evil_terminal.py # Main Script
+├── evil_terminal.py # Main Script (Terminal Edition)
+├── Tinyevil-G.py # GUI Edition
 ├── requirements.txt # Dependencies
 ├── README.md # Documentation
 ├── LICENSE # License File
 ├── .gitignore # Git Ignore Rules
-└── link_history.txt # Auto-generated History Log
+└── link_history.* # Auto-generated History (txt/html/csv/json)
 
 yaml
 Copy code
@@ -98,7 +99,7 @@ Built-in modules used: os, time, platform, socket, signal, sys, random, string, 
 🎯 Use Cases
 👨‍💻 Developers → shorten localhost URLs
 
-🛡️ Pentesters → manage ngrok/cloudflare tunnels
+🛡️ Pentesters → manage ngrok/cloudflared tunnels
 
 🌐 Everyday Users → shorten and save long links
 
@@ -136,11 +137,62 @@ Copy code
              .MMM.   .MMM.           
           TinyURL GPT - Evil Terminal
 ============================================================
+🎨 Tinyevil-G (GUI Version)
+Tinyevil-G is the GUI Edition of Evil-Terminal.
+It uses Tkinter to provide a Dark Droid/Matrix-style interface, supports exporting history, and makes link shortening easier with buttons and tables.
+
+✨ Features
+🌐 Link Shortener
+
+Shortens localhost, ngrok, and trycloudflare URLs.
+
+🎨 Dark Droid/Matrix GUI
+
+Tkinter + custom theme styling.
+
+📜 History Manager
+
+Auto-save history in link_history.txt and link_history_gui.html.
+
+View history in the GUI (table view).
+
+📂 Export Options
+
+Export history as HTML, CSV, JSON.
+
+🖥 System Info
+
+Auto-detects Local IP + Public IP.
+
+🔑 Session ID Generator
+
+Generates random alphanumeric IDs.
+
+🚀 Splash Screen Loader
+
+▶️ How to Run
+bash
+Copy code
+python Tinyevil-G.py
+📂 Files Created
+link_history.txt → Simple text log
+
+link_history_gui.html → Styled HTML history
+
+Export options:
+
+history.csv
+
+history.json
+
+history.html
+
 📜 License
 This project is licensed under the MIT License – free to use, modify, and distribute.
 
 🧑‍💻 Author
 Created by: Anmol Yadav
+
 Powered by: Python 🐍
 
 🌟 Support
@@ -152,8 +204,4 @@ If you like this project:
 
 🐞 Report issues / Pull Requests welcome
 
-yaml
-Copy code
-
-✨💗Thankyou for visiting
-
+✨💗 Thank you for visiting!
