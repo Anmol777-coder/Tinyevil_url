@@ -82,19 +82,53 @@ def shorten_link(url):
     except:
         return Colors.FAIL + "[!] Failed to shorten link" + Colors.ENDC
 
-# 📜 Save History
+# 📜 Save History (TXT + HTML)
 def save_history(original, short):
+    # Save to text file (old system)
     with open("link_history.txt", "a") as f:
         f.write(f"{datetime.now()} | {original} -> {short}\n")
 
-# 📜 Show History
+    # Save to HTML file (new system)
+    html_file = "link_history.html"
+    entry = f"<tr><td>{datetime.now()}</td><td>{original}</td><td><a href='{short}' target='_blank'>{short}</a></td></tr>\n"
+
+    if not os.path.exists(html_file):
+        with open(html_file, "w") as f:
+            f.write("""<html>
+<head>
+<title>Link History - Evil Terminal</title>
+<style>
+    body { font-family: Arial, sans-serif; background: #111; color: #eee; }
+    table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+    th, td { border: 1px solid #444; padding: 10px; text-align: left; }
+    th { background: #333; }
+    tr:nth-child(even) { background: #222; }
+    a { color: #4CAF50; text-decoration: none; }
+</style>
+</head>
+<body>
+<h2>🔗 Evil-Terminal Link History</h2>
+<table>
+<tr><th>Date & Time</th><th>Original Link</th><th>Shortened Link</th></tr>
+""")
+            f.write(entry)
+    else:
+        with open(html_file, "a") as f:
+            f.write(entry)
+
+
+    # 📜 Show History
 def show_history():
-    if os.path.exists("link_history.txt"):
-        print(Colors.OKCYAN + "\n=== Link History ===" + Colors.ENDC)
+    if os.path.exists("link_history.html"):
+        print(Colors.OKCYAN + "\n=== Link History (HTML file) ===" + Colors.ENDC)
+        print(Colors.OKGREEN + "[i] Saved in: link_history.html" + Colors.ENDC)
+    elif os.path.exists("link_history.txt"):
+        print(Colors.OKCYAN + "\n=== Link History (TXT file) ===" + Colors.ENDC)
         with open("link_history.txt", "r") as f:
             print(f.read())
     else:
         print(Colors.WARNING + "[!] No history found." + Colors.ENDC)
+        
 
 # 📋 Menu
 def show_menu():
