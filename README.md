@@ -57,7 +57,7 @@ Copy code
 
 ### 1️⃣ Clone Repository  
 ```bash
-git clone https://github.com/<your-username>/Tinyevil_url.git
+git clone https://github.com/Anmol777-coder/Tinyevil_url.git
 cd Tinyevil_url
 2️⃣ Setup Virtual Environment (Recommended)
 bash
