@@ -116,9 +116,9 @@ Built-in modules: `os`, `time`, `platform`, `socket`, `signal`, `sys`, `random`,
           M.          .M          
            MMMMMMMMMMM.           
         .MMM\MMMMMMM/MMM.         
-       .MMM.7MMMMMMM.7MMM.        
+      .MMM.🔥MMMMMMM.🔥MMM.        
       .MMMMMMMMMMMMMMMMMMM        
-      MMMMMMM.......MMMMMMM       
+      MMMMMM\......./MMMMMM       
       MMMMMMMMMMMMMMMMMMMMM       
  MMMM MMMMMMMMMMMMMMMMMMMMM MMMM
 dMMMM.MMMMMMMMMMMMMMMMMMMMM.MMMMD
