@@ -1,0 +1,99 @@
+import javax.swing.*;
+import java.awt.*;
+
+public class TinyevilGuide {
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(() -> {
+            JFrame frame = new JFrame("Tinyevil_url Guide");
+            frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+            frame.setSize(700, 600);
+
+            String htmlContent = """
+                <html>
+                <head>
+                  <style>
+                    body {
+                      font-family: Arial, sans-serif;
+                      background-color: #f0f9ff;
+                      color: #333;
+                      margin: 0;
+                      padding: 0;
+                    }
+                    header {
+                      background-color: lightblue;
+                      padding: 1rem;
+                      text-align: center;
+                    }
+                    h1 {
+                      margin: 0;
+                      color: #003366;
+                    }
+                    main {
+                      padding: 1rem 2rem;
+                    }
+                    .instructions {
+                      background-color: #e6ffe6;
+                      padding: 1rem;
+                      border-radius: 10px;
+                    }
+                    .instructions h2 {
+                      color: green;
+                    }
+                    .command {
+                      background-color: #ffe6e6;
+                      border-left: 5px solid red;
+                      padding: 0.5rem;
+                      font-family: monospace;
+                      margin: 0.5rem 0;
+                      color: #990000;
+                    }
+                    footer {
+                      text-align: center;
+                      padding: 1rem;
+                      background-color: #f0fff0;
+                      color: green;
+                      font-size: 0.8rem;
+                    }
+                  </style>
+                </head>
+                <body>
+                  <header>
+                    <h1>💙 Tinyevil_url Usage Guide</h1>
+                  </header>
+                  <main>
+                    <section class='instructions'>
+                      <h2>🌱 How to Use</h2>
+                      <ol>
+                        <li>First, clone the repository:</li>
+                        <div class='command'>git clone https://github.com/Anmol777-coder/Tinyevil_url.git</div>
+
+                        <li>Navigate into the folder:</li>
+                        <div class='command'>cd Tinyevil_url</div>
+
+                        <li>If you want GUI, run:</li>
+                        <div class='command'>sudo ./Terminalevil-G.py</div>
+
+                        <li>If you don’t want GUI, run:</li>
+                        <div class='command'>sudo ./evil_terminal.py</div>
+
+                        <li>Follow the README instructions inside the repo for more details.</li>
+                      </ol>
+                    </section>
+                  </main>
+                  <footer>
+                    ♥️ Made with love & colors — Light Blue, Red, and Green<br>
+                    <small>If anyone misuses this tool, it is their own responsibility. The author is not responsible.</small>
+                  </footer>
+                </body>
+                </html>
+            """;
+
+            JEditorPane editorPane = new JEditorPane("text/html", htmlContent);
+            editorPane.setEditable(false);
+            JScrollPane scrollPane = new JScrollPane(editorPane);
+
+            frame.getContentPane().add(scrollPane, BorderLayout.CENTER);
+            frame.setVisible(true);
+        });
+    }
+}
