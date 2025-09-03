@@ -1,0 +1,11 @@
+# Evil-Terminal C++ Requirements
+
+# Compiler
+g++ (GNU C++17 or later)
+
+# Libraries
+libcurl4-openssl-dev   # For HTTP requests (TinyURL API)
+
+# Build & Run Example
+g++ evil_terminal.cpp -o evil_terminal -lcurl
+./evil_terminal
