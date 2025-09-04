@@ -86,7 +86,11 @@ void banner() {
    dMMMM.MMMMMMMMMMMMMMMMMMMMM.MMMMD 
    dMMMM.MMMMMMMMMMMMMMMMMMMMM.MMMMD 
     MMM8 MMMMMMMMMMMMMMMMMMMMM 8MMM  
-         MMMMMMMMMMMMMMMMMMMMM       
+         MMMMMMMMMMMMMMMMMMMMM
+         MMMMMMMMMMMMMMMMMMMMM
+         MMMMMMMMMMMMMMMMMMMMM
+             MMMMM.  MMMMM
+             MMMMM.  MMMMM
              MMMMM   MMMMM  v3.0     
              .MMM.   .MMM.           
           TinyURL GPT - Evil Terminal
