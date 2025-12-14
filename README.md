@@ -3,6 +3,46 @@ https://www.freepik.com/premium-photo/illustration-skilled-pro-player-shooter_23
 
 https://www.freepik.com/premium-ai-image/creepy-old-house-with-sign-that-says-haunted-front_332147352.htm#fromView=search&page=1&position=7&uuid=f12c06e9-63d2-40f5-a42c-c929c4cb5c0f&query=2D+game+art+horror+ghost+home+board+bhoot+bangla+horrorest
 
+assets/player/default.png
+https://www.freepik.com/premium-vector/gaming-fighter-illustration-flat-style_408356598.htm#fromView=search&page=1&position=25&uuid=bb03c912-5890-4c61-be8a-c770469d8657&query=2D+game+art+player++action
+
+assets/player/skin1.png
+https://www.freepik.com/premium-psd/magnificent-handsome-jack-borderlands-isolated-transparent-background_374218024.htm#fromView=search&page=1&position=35&uuid=bb03c912-5890-4c61-be8a-c770469d8657&query=2D+game+art+player++action
+
+assets/player/skin2.png
+https://www.freepik.com/free-ai-image/fantasy-anime-style-scene_133541531.htm#fromView=search&page=1&position=37&uuid=bb03c912-5890-4c61-be8a-c770469d8657&query=2D+game+art+player++action
+
+assets/player/attack_1.png
+https://www.freepik.com/premium-vector/gaming-fighter-illustration-flat-style_408356598.htm
+
+assets/player/attack_2.png
+https://www.freepik.com/premium-vector/gaming-fighter-illustration-flat-style_408356598.htm
+
+assets/enemy/walk_1.png
+https://share.google.com/8Tw8qvlIBUEUcwVIw  (placeholder walking frame 1)
+
+assets/enemy/walk_2.png
+https://share.google.com/8Tw8qvlIBUEUcwVIw  (placeholder walking frame 2)
+
+assets/enemy/walk_3.png
+https://share.google.com/8Tw8qvlIBUEUcwVIw  (placeholder walking frame 3)
+
+assets/enemy/attack_1.png
+https://www.freepik.com/premium-vector/troll-orc-cartoon-character-illustration_8346395.htm#fromView=search&page=1&position=12&uuid=f31733a4-2b18-40a8-9a06-d7c57cdedff8&query=2d+game+art+monster+picture+2
+
+assets/enemy/attack_2.png
+https://www.freepik.com/premium-vector/troll-orc-cartoon-character-illustration_8346395.htm#fromView=search&page=1&position=12&uuid=f31733a4-2b18-40a8-9a06-d7c57cdedff8&query=2d+game+art+monster+picture+2
+
+assets/ghosts/boss.png
+https://www.freepik.com/free-vector/hand-drawn-halloween-ghosts-collection_18778278.htm#from_element=cross_selling__vector
+
+assets/ghosts/ghost1.png
+https://www.freepik.com/premium-ai-image/spooky-white-ghost-with-glowing-eyes-eerie-fog-dark-halloween-night_356884180.htm#fromView=search&page=1&position=15&uuid=a20c5708-4061-448d-8463-f31ef7891b6f&query=2D+game+art+horror+ghost
+
+assets/ghosts/ghost2.png
+https://www.freepik.com/premium-ai-image/spooky-white-ghost-with-glowing-eyes-eerie-fog-dark-halloween-night_356884180.htm#fromView=search&page=1&position=15&uuid=a20c5708-4061-448d-8463-f31ef7891b6f&query=2D+game+art+horror+ghost
+
+
 
 **TinyURL GPT Edition – Created by Anmol**
 A modern, terminal-based Python tool to shorten, manage, and organize links with style ⚡
